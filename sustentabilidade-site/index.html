@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustentabilidade</title>
+    <link rel="stylesheet" href="dist/style.css">
+</head>
+<body>
+
+    
+    <header>
+        <div class="logo">Sustentabilidade</div>
+        <ul class="nav-list">
+            <li><a href="#introducao">Introdução</a></li>
+            <li><a href="#importancia">Importância</a></li>
+            <li><a href="#dicas">Dicas</a></li>
+            <li><a href="#impacto">Impacto</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </header>
+
+    <div class="container">
+     
+        <section id="introducao">
+            <img src="images/noah-buscher-x8ZStukS2PM-unsplash.jpg" alt="Sustentabilidade">
+            <h1>O que é sustentabilidade?</h1>
+            <p>
+                A sustentabilidade refere-se ao equilíbrio entre o uso de recursos naturais e a preservação do meio ambiente,
+                garantindo que as gerações futuras tenham acesso a esses recursos. Isso envolve práticas que minimizam o impacto
+                ambiental e promovem o uso consciente, sustentável e eficiente dos recursos.
+            </p>
+            <p>
+                Sustentabilidade também está relacionada ao desenvolvimento econômico e social. No contexto econômico, busca-se
+                formas de crescimento que não esgotem os recursos naturais e que respeitem o meio ambiente. No campo social, a
+                sustentabilidade promove equidade, inclusão e respeito às culturas locais.
+            </p>
+        </section>
+
+        
+        <section id="importancia">
+            <h2>Por que a sustentabilidade é importante?</h2>
+            <p>
+                A importância da sustentabilidade reside no fato de que o planeta Terra possui recursos limitados. Se continuarmos
+                a explorar os recursos naturais de maneira desenfreada, o risco de esgotamento desses recursos aumentará, gerando
+                impactos ambientais, econômicos e sociais irreversíveis. 
+            </p>
+            <p>
+                A sustentabilidade também está diretamente ligada à mitigação das mudanças climáticas. Práticas como o uso de
+                fontes renováveis de energia, o consumo responsável e a redução de resíduos são fundamentais para garantir que
+                os ecossistemas sejam preservados e que as futuras gerações possam viver em um planeta saudável.
+            </p>
+            <p>
+                Além de beneficiar o meio ambiente, práticas sustentáveis ajudam as empresas a se tornarem mais eficientes, reduzindo
+                custos e melhorando sua reputação. Para os consumidores, a sustentabilidade oferece a oportunidade de fazer escolhas
+                mais conscientes e apoiar marcas que respeitam o planeta.
+            </p>
+        </section>
+
+        
+        <section id="dicas">
+            <h2>Dicas Sustentáveis para o Dia a Dia</h2>
+            <p>
+                Pequenas mudanças em nossos hábitos podem ter um grande impacto na preservação do meio ambiente. A seguir, listamos
+                algumas práticas sustentáveis que você pode adotar no seu cotidiano:
+            </p>
+            <ul>
+                <li><strong>1. Reduza o consumo de plástico:</strong> Prefira produtos reutilizáveis, como garrafas de vidro ou metal, e evite produtos embalados em plástico.</li>
+                <li><strong>2. Economize água:</strong> Reduza o tempo de banho, feche a torneira ao escovar os dentes e utilize a água de reuso para regar plantas.</li>
+                <li><strong>3. Prefira produtos locais e sazonais:</strong> Isso ajuda a diminuir a pegada de carbono associada ao transporte e fortalece a economia local.</li>
+                <li><strong>4. Recicle corretamente:</strong> Separe plástico, vidro, papel e metais para reciclagem e contribua para a redução de resíduos nos aterros.</li>
+                <li><strong>5. Economize energia:</strong> Desconecte aparelhos da tomada quando não estiverem em uso e aproveite a luz natural o máximo possível.</li>
+                <li><strong>6. Adote a mobilidade sustentável:</strong> Sempre que possível, use transporte público, ande de bicicleta ou caminhe para reduzir emissões de CO2.</li>
+                <li><strong>7. Faça compostagem:</strong> Transforme restos de alimentos e resíduos orgânicos em adubo natural para suas plantas.</li>
+            </ul>
+        </section>
+
+       
+        <section id="impacto">
+            <h2>Impacto ambiental da sustentabilidade</h2>
+            <p>
+                Práticas sustentáveis geram um impacto positivo no meio ambiente, reduzindo a poluição, a emissão de gases de efeito estufa e a degradação dos ecossistemas.
+                Ao adotar hábitos sustentáveis, contribuímos para a conservação da biodiversidade e o combate às mudanças climáticas, garantindo um futuro melhor para todos.
+            </p>
+            <p>
+                Além disso, a sustentabilidade promove a justiça social, assegurando que todas as pessoas, independentemente de sua localização ou condição econômica,
+                tenham acesso a recursos básicos como água limpa e ar puro, sem comprometer as gerações futuras.
+            </p>
+        </section>
+
+      
+        <section id="contato">
+            <h2>Entre em contato conosco</h2>
+            <p>Tem dúvidas sobre como adotar práticas mais sustentáveis no seu dia a dia? Quer saber mais sobre as nossas iniciativas ou fazer uma parceria? Preencha o formulário abaixo:</p>
+
+         
+            <form id="contato-form" action="#" method="POST" onsubmit="return validarFormulario()">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome">
+                    <span class="erro" id="erro-nome"></span>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Seu e-mail">
+                    <span class="erro" id="erro-email"></span>
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="Seu telefone">
+                    <span class="erro" id="erro-telefone"></span>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+
+            <p>Ou entre em contato diretamente por e-mail: <a href="mailto:info@sustentabilidade.com">info@sustentabilidade.com</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>Contato: <a href="mailto:info@sustentabilidade.com">info@sustentabilidade.com</a></p>
+    </footer>
+
+  
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+header {
+    background-color: $primary-color;
+    color: white;
+
+    .logo {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .nav-list {
+        li {
+            margin-right: 15px;
+
+            a {
+                color: white;
+                &:hover {
+                    color: lighten(white, 20%);
+                }
+            }
+        }
+    }
+}

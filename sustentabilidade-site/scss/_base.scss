@@ -1,0 +1,30 @@
+
+$primary-color: #2e7d32;    
+$secondary-color: #f4f4f4; 
+$text-color: #333;          
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: $secondary-color;
+    color: $text-color;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: $primary-color;
+}
+
+a {
+    color: $primary-color;
+    text-decoration: none;
+    &:hover {
+        color: darken($primary-color, 10%);
+    }
+}
